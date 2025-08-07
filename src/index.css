@@ -12,20 +12,23 @@
 
 body{
     font-family: "Space Grotesk", sans-serif;
-  font-weight: 500;
+    font-weight: 500;
  
 }
 
+
+
+
 .gradient{
     background-image: url(./assets/bg-main-desktop.png);
-    width: 35%;
-    height: 100%;
+    width: 35vw;
+    height: 100vh;
 }
 
 .form{
     background-color: var(--White);
-    width: 65%;
-    height: 100%;
+    width: 65vw;
+    height: 100vh;
 }
 
 input{
@@ -55,4 +58,66 @@ button{
     color: var(--White);
     border-radius: 5px;
 
+}
+
+.card-front{
+    background-image: url(./assets/bg-card-front.png);
+}
+
+.card-back {
+    background-image: url(./assets/bg-card-back.png);
+}
+
+@media (max-width:710px){
+    section {
+        flex-direction: column;
+        position: relative;
+        width: 100vw;
+    }
+
+    .gradient{
+        height: 35%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .form{
+        height: 65%;
+        width: 100%;
+        position: relative;
+        bottom: -9rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-front{
+        top: 4.1rem;
+        left: 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 250px;
+        position: relative;
+        overflow: visible;
+        z-index: 1;
+        max-width: 300px;
+    }
+
+    .card-back{
+        left: 10rem;
+        bottom: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px;
+    }
+
+    .card-cvc{
+        right: 3rem;
+    }
+
+    /* .block input {
+        max-width: 300px;
+    } */
 }
