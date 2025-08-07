@@ -50,15 +50,6 @@ yarn install
 
 - Using the back button to return to the form won't preserve your previous input.
 
-## Folder Structure
-src/
- ├── assets/          
- │    ├── PageWrapper.jsx  
- │    └── ThankYou.jsx    
- ├── App.jsx
- ├── index.jsx
- └── index.css
-
 
 ## Technologies
 - React Router DOM for routing and navigation
