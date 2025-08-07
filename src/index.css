@@ -133,7 +133,8 @@ button{
     .card-front{
         margin-bottom: 2rem;
         left: 3rem;
-        top: 4rem;
+        top: 5rem;
+        word-spacing: normal;
     }
 
     .gradient{
@@ -160,7 +161,7 @@ button{
     }
 
     .cvc input{
-        width: 155px;
+        width: 140px;
     }
 
     .form{
