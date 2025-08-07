@@ -133,6 +133,7 @@ button{
     .card-front{
         margin-bottom: 2rem;
         left: 3rem;
+        top: 4rem;
     }
 
     .gradient{
@@ -147,26 +148,30 @@ button{
     }
 
     .block input {
-        max-width: 280px;
+        max-width: 250px;
     }
 
     .date input {
         width: 45px;
     }
 
+    .date label{
+        font-size: 0.9rem;
+    }
+
     .cvc input{
-        width: 165px;
+        width: 155px;
     }
 
     .form{
-        bottom: -5rem;
+        bottom: -9rem;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     button{
-        max-width: 280px;
+        max-width: 250px;
         margin-top: 1rem;
     }
 }
