@@ -52,10 +52,9 @@ yarn install
 
 ## Folder Structure
 src/
- ├── assets/          # Images like card logo
- ├── components/
- │    ├── PageWrapper.jsx  # Main form and card preview
- │    └── ThankYou.jsx     # Thank you page component
+ ├── assets/          
+ │    ├── PageWrapper.jsx  
+ │    └── ThankYou.jsx    
  ├── App.jsx
  ├── index.jsx
  └── index.css
