@@ -162,7 +162,7 @@ function PageWrapper() {
             </div>
 
             <div className="inline">
-              <div className="inline-content mb-4">
+              <div className="inline-content date mb-4">
                 <label htmlFor="exp-date">
                   EXP. DATE (MM/YY)</label>
                   <br />
@@ -200,7 +200,7 @@ function PageWrapper() {
                   />
                 
               </div>
-              <div className="inline-content mb-4">
+              <div className="inline-content cvc mb-4">
                 <label htmlFor="cvc">CVC</label>
                 <br />
                 <input

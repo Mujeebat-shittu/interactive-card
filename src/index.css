@@ -10,6 +10,13 @@
 --Font-size: 18px;
 }
 
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body{
     font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
@@ -72,18 +79,18 @@ button{
     section {
         flex-direction: column;
         position: relative;
-        width: 100vw;
+        width: 100%;
     }
 
     .gradient{
-        height: 35%;
+        height: 35vh;
         width: 100%;
         position: absolute;
         top: 0;
     }
 
     .form{
-        height: 65%;
+        height: 65vh;
         width: 100%;
         position: relative;
         bottom: -9rem;
@@ -92,7 +99,7 @@ button{
     }
 
     .card-front{
-        top: 4.1rem;
+        top: 6rem;
         left: 4.5rem;
         display: flex;
         align-items: center;
@@ -106,7 +113,7 @@ button{
 
     .card-back{
         left: 10rem;
-        bottom: 30rem;
+        bottom: 26rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -120,4 +127,46 @@ button{
     /* .block input {
         max-width: 300px;
     } */
+}
+
+@media (max-width:510px){
+    .card-front{
+        margin-bottom: 2rem;
+        left: 3rem;
+    }
+
+    .gradient{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .card-back{
+        left: 6rem;
+    }
+
+    .block input {
+        max-width: 280px;
+    }
+
+    .date input {
+        width: 45px;
+    }
+
+    .cvc input{
+        width: 165px;
+    }
+
+    .form{
+        bottom: -5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button{
+        max-width: 280px;
+        margin-top: 1rem;
+    }
 }
