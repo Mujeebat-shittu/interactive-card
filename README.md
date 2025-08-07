@@ -19,27 +19,21 @@ A React app featuring a credit card input form with live display, basic validati
 ## Installation
 1. Clone the repository:
 
-`bash
+```bash
 Copy code
 git clone https://github.com/yourusername/react-credit-card-form.git
-cd react-credit-card-form`
+cd react-credit-card-form
+```
 
 2. Install dependencies:
 
-bash
+```bash
 Copy code
 npm install
 # or
 yarn install
+```
 
-3. Start the development server:
-
-bash
-Copy code
-npm start
-# or
-yarn start
-The app will be available at http://localhost:3000.
 
 ## Usage
 - Fill in the credit card details in the form.
