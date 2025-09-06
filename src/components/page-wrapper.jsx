@@ -84,7 +84,7 @@ function PageWrapper() {
                   {formatCardNumber(cardNumber) || "0000 0000 0000 0000"}
                 </p>
               </div>
-              <div className="card-name absolute bottom-7 left-8 tracking-widest">
+              <div className="card-name absolute bottom-9 left-8 tracking-widest">
                 <p className="">{cardName || "Jane Appleseed"}</p>
               </div>
               <div className="card-expiry absolute flex  items-end justify-end  bottom-4 right-6">
