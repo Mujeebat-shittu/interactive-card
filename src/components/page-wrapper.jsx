@@ -87,7 +87,7 @@ function PageWrapper() {
               <div className="card-name absolute bottom-7 left-8 tracking-widest">
                 <p className="">{cardName || "Jane Appleseed"}</p>
               </div>
-              <div className="card-expiry absolute flex  items-end justify-end  bottom-7 right-6">
+              <div className="card-expiry absolute flex  items-end justify-end  bottom-4 right-6">
                 <p className="">{expiryMonth || "MM"}&nbsp; /</p> &nbsp;
                 <p>{expiryYear || "YY"}</p>
               </div>
