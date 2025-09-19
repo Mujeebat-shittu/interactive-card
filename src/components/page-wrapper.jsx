@@ -174,6 +174,8 @@ function PageWrapper() {
                     value={expiryMonth}
                     onChange={formatExpiryMonth}
                     name="expiryMonth"
+                    min="1"
+                    max="12"
                     id="exp-date"
                     placeholder="MM"
                     className="w-[60px] text-center"
@@ -188,6 +190,7 @@ function PageWrapper() {
                     type="text"
                     inputMode="numeric"
                     maxLength={2}
+                    max={30}
                     value={expiryYear}
                     onChange={formatExpiryYear}
                     name="expiryYear"
